@@ -9,13 +9,8 @@ import ListingsScreen from "./app/Screens/ListingsScreen";
 import MessagesScreen from "./app/Screens/MessagesScreen";
 import AppTextInput from "./app/components/AppTextInput";
 import AppPicker from "./app/components/AppPicker";
+import LoginScreen from "./app/Screens/LoginScreen";
 
 export default function App() {
-	const [isNew, setIsNew] = useState("");
-	return (
-		<Screen>
-			<AppPicker placeholder="category" icon="apps" />
-			<AppTextInput placeholder="Email" icon="email" />
-		</Screen>
-	);
+	return <LoginScreen />;
 }
