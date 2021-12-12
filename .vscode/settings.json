@@ -1,6 +1,4 @@
 {
-    "references.preferredLocation": "view",
-    "cSpell.words": [
-        "Formik"
-    ]
+	"references.preferredLocation": "view",
+	"cSpell.words": ["atleast", "Formik"]
 }
